@@ -1,0 +1,296 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  color: #000000;
+  background: #eeedee;
+}
+
+body, input, button, text-area {
+  font: 400 14px 'Poppins', sans-serif;
+}
+
+section {
+  padding: 30px 0;
+}
+
+#principal header .navbar {
+  background-color: transparent !important;
+}
+
+#principal header .navbar a {
+  color: #000000;
+}
+
+#principal .conteudo-acessibilidade {
+  position: absolute;
+  width: 100vw;
+  padding: 6px 30px;
+  display: flex;
+  justify-content: end;
+  text-align: right;
+  z-index: 8;
+}
+
+#principal .conteudo-acessibilidade .ico-acessibilidade {
+  height: 34px;
+}
+
+#principal .conteudo-acessibilidade .ico-acessibilidade-audio {
+  height: 34px;
+  padding-right: 6px;
+}
+
+#sobre { 
+  position: relative;
+  height: 100vh;
+  max-height: 700px;
+  background: #eeedee;
+  background: url('../src/images/imagem-abertura.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+#sobre .logo-start {
+  height: 120px;
+}
+
+#sobre h1 {
+  color: #DA5F26;
+}
+
+#sobre p {
+  font-size: 18px;
+}
+
+
+#sobre .content-description {
+  padding-top: 30px;
+  height: 100vh;
+  max-height: 680px;
+  max-width: 550px;
+}
+
+
+#sobre .conteudo-acessibilidade {
+  padding: 10px 0;
+}
+
+
+
+#sobre .content-description .content-buttons {
+  padding: 10px 0;
+  font-weight: 800;
+}
+
+#sobre .content-description button {
+  font-weight: 400;
+  font-size: 16px;
+  width: 154px;
+  height: 42px;
+  border: 0;
+  background: #DA5F26;
+  border-radius: 16px;
+  color:#FFF;
+  border: 1px solid #eeedee;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sobre .content-description button a:hover,
+#sobre .content-description button:hover {
+  background: #EEA31C;
+  font-weight: 800;
+}
+
+#vantagens p, #vantagens h2 {
+  color: #4356A5;
+}
+
+#vantagens .vantagens-itens {
+  display: flex;
+  flex-direction: column; 
+  justify-content: start;
+  align-items: center;
+  padding: 0 30px;
+  text-align: justify;
+}
+
+#vantagens .vantagens-itens p {
+  font-size: 16px;
+}
+
+#vantagens .div-icons-vantagens {
+  padding: 10px;
+  height: 110px;
+  width: 110px;
+  border-radius:100px;
+  background: #4356A5;
+  border: 1px solid #4356A5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-bottom: 15px;
+}
+
+#vantagens .icons-vantagens-jogue {
+  height: 48px;
+}
+
+#vantagens .icons-vantagens {
+  height: 58px;
+}
+
+#casas-cultura {
+  background: #FFF;
+}
+
+#casas-cultura h3 {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#casas-cultura .logos-cultura {
+  height: 40px;
+  margin: 20px;
+  /* object-fit: cover; */
+}
+
+
+
+#desafio { 
+  height: 100vh;
+  max-height: 350px;
+  background: #EEA31C;
+  color: #000000;
+}
+#desafio .conteudo-desafio { 
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  max-height: 350px;
+}
+
+#encontre-cultura {
+  height: 100vh;
+  max-height: 480px;
+  background: #eeedee;
+  background: url('../src/images/background-saopaulo.jpg') center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+#encontre-cultura .conteudo-cultura { 
+  padding: 35px;
+  max-height: 420px;
+  background-color: rgba(255, 255, 255, 0.7);
+  flex-direction: column; 
+}
+
+#encontre-cultura .conteudo-cultura h3 {  
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#encontre-cultura .conteudo-cultura span {  
+  padding: 25px 0;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+#contato h1 {
+  color: #DA5F26;
+}
+
+#contato p {
+  font-size: 16px;
+}
+
+#contato button {
+  font-weight: 400;
+  font-size: 16px;
+  width: 250px;
+  height: 42px;
+  border: 0;
+  background: #DA5F26;
+  border-radius: 16px;
+  color:#FFF;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contato button a:hover,
+#contato button:hover {
+  background: #EEA31C;
+  font-weight: 800;
+}
+#contato .ico-redes {
+  height: 44px;
+  width: 44px;
+  padding: 6px;
+}
+
+footer {
+  padding: 25px 0;
+  background: #E78D1F;
+  text-align: center;
+}
+
+footer p, footer a {
+  font-size: 14px;  
+  color: #000000;
+}
+
+footer a {
+  font-size: 14px;  
+  color: #000000;
+  text-decoration: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 980px) {
+  section {
+    padding: 15px 0;
+  }
+  #sobre .content-description {
+    padding-top: 15px;
+  }
+
+  #encontre-cultura, #encontre-cultura .conteudo-cultura { 
+    padding: 20px;
+    max-height: 600px;
+  }
+  
+  #encontre-cultura .conteudo-cultura span {  
+    padding: 20px 0;
+    font-size: 18px;
+  }
+
+}
