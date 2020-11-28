@@ -21,3 +21,7 @@ git clone https://github.com/anapaulafelic/abre_te_codigo_web
 cd abre_te_codigo_web
 open index.html
 ```
+
+## Licença
+Este projeto está sob a licença Creative Commons CC-BY-SA, texto legal
+(https://creativecommons.org/licenses/by-sa/4.0/legalcode)
