@@ -16,6 +16,13 @@ body, input, button, text-area {
 section {
   padding: 30px 0;
 }
+.nav-login img {
+  width: 130px;
+}
+.paginas-gerais {
+  background: #ffffff;
+  color: #757574;
+}
 
 #principal header .navbar {
   background-color: transparent !important;
@@ -254,8 +261,218 @@ section {
   padding: 6px;
 }
 
+#login {
+  background: #FFFFFF;
+}
+
+#login-app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+  
+#login-app, #login-app .form-control input  {
+  color:#757574;
+}
+#login-app .logo, #conteudo-play .logo {
+  max-height: 90px;
+  margin-bottom: 30px;
+}
+
+#login-app h3, #conteudo-play h3{
+  font-weight: 500;
+}
+
+#login-app ::placeholder {
+  color:#cccccc;
+  font-size: 14px;
+}
+
+#login-app label {
+  font-weight: 500;
+}
+
+#login-app input {
+  margin-bottom: 30px;
+}
+
+#login-app .form-control {
+  color: #757574;
+  border: 1px solid #cccccc;
+  border-radius: .25rem;  
+}
+
+#login-app button {
+  font-weight: 400;
+  font-size: 16px;
+  width: 100%;
+  height: 50px;
+  border: 0;
+  background: #e3342b;
+  border-radius: 16px;
+  color:#FFF;
+
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-app button a:hover,
+#login-app button:hover {
+  background: #EEA31C;
+  font-weight: 500;
+}
+
+#login-app a:hover,
+#login-app a {
+  color: #e3342b;
+  text-decoration: none;
+  font-weight: 800;
+}
+#login-app .text-esqueceu p {
+ margin-bottom: 0.2rem;
+ font-size: 13px;
+}
+
+#login-app .content-slider h4 {
+font-weight: 500;
+font-size: 16px;
+}
+#login-app .content-slider {
+  display: block;
+  flex-direction: column;
+}
+
+#playing-app {
+  transition: margin-left .5s;
+}
+
+#conteudo-play .box-jogo-perguntas {   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#conteudo-play .box-jogo-perguntas h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#conteudo-play .box-jogo-perguntas span {
+  padding-top: 8px;
+  display: block;
+  width: 100%;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#conteudo-play .box-jogo-perguntas button {   
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+  height: 30px;
+  border: 0;
+  background: #757574;
+  border-radius: 16px;
+  color:#FFF;
+  margin: 0;
+
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#conteudo-play .box-jogo-perguntas button a:hover,
+#conteudo-play .box-jogo-perguntas button:hover {
+  background: #d2d2d2;
+  font-weight: 500;
+}
+
+#conteudo-play .box-jogo-perguntas .content-pergunta {
+   border-radius: 5px;
+  border: 1px solid #757574;  
+  padding: 15px;
+   min-height: 210px;
+}
+
+#conteudo-play .box-jogo-perguntas .content-pergunta p {
+   margin-bottom: 0;
+}
+
+#conteudo-play .box-jogo-perguntas .content-pergunta .resposta {
+   font-style: italic;
+   font-size: 13px;
+}
+
+#conteudo-play .box-jogo-perguntas .content-pergunta .numeroPergunta {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+   font-size: 36px;
+   font-weight: 500;
+   margin: 5px 15px;
+}
+#conteudo-play .tema-quiz {
+  color: #e3342b;
+}
+
+#conteudo-play a:hover,
+#conteudo-play a {
+  color: #757574;
+  text-decoration: none
+}
+
+.footer-perguntas {
+  border-top: 1px solid #CCCCCC;
+
+  width: 100%;
+  padding: 25px 0;
+  left: 0;
+  bottom: 0;  
+  text-align: center;
+}
+
+.footer-perguntas button {
+  font-weight: 400;
+  font-size: 16px;
+  width: 70%;
+  height: 50px;
+  border: 0;
+  background: #e3342b;
+  border-radius: 16px;
+  color:#FFF;
+
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-perguntas button a:hover,
+.footer-perguntas button:hover {
+  background: #EEA31C;
+  font-weight: 500;
+}
+
+
 footer {
   padding: 25px 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background: #E78D1F;
   text-align: center;
 }
@@ -269,6 +486,11 @@ footer a {
   font-size: 14px;  
   color: #000000;
   text-decoration: none;
+}
+
+#playing-app footer {
+  border-top: 1px solid #CCCCCC;
+  background: #FFFFFF;
 }
 
 
@@ -294,3 +516,164 @@ footer a {
   }
 
 }
+
+
+
+
+
+
+
+/* NAV EDIT QUESTION */
+#editQuestion {
+  display: none;
+  visibility: hidden;
+  background: #ffffff;
+  border: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+
+}
+#editQuestion {
+  padding: 15px;
+}
+
+.editSidenav {
+  padding-top: 60px; /* Place content 60px from the top */
+  height: 100vh; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #FFFFFF; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */  
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  z-index: 10; /* Stay on top */
+}
+
+#boxQuestion {
+  position: absolute;
+ background:rgba(0,0,0,0.4);
+ visibility: hidden;
+ display: none;
+ z-index: 5;
+ width: 100vw;
+ height: 100vh;
+}
+
+.iFrameConteudo .formSidenav {
+  padding-top: 15px;
+}
+.iFrameConteudo .editSidenav a,
+.iFrameConteudo a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.iFrameConteudo a:hover {
+  text-decoration: none;
+  
+}
+
+.iFrameConteudo .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 48px;
+  margin-left: 50px;
+  z-index: 999;
+  padding: 0;
+}
+
+
+.iFrameConteudo {
+  background: #ffffff;
+  
+}
+.iFrameConteudo .editSidenav .formSidenav {
+  margin-left: 18px;
+}
+
+.iFrameConteudo.editSidenav .formSidenav .contact-form {
+  position: absolute;
+  width: 100%;
+}
+.iFrameConteudo .editSidenav .formSidenav .contact-form .form-check {
+   display: block;
+   flex-direction: column;
+  width: 100%;
+}
+.iFrameConteudo .formSidenav input, .iFrameConteudo .formSidenav textarea,
+.iFrameConteudo .formSidenav .contact-form .form-check input, 
+.iFrameConteudo .formSidenav .contact-form .form-check textarea {
+  border: #757574 1px solid;
+  border-radius: 5px;
+  color: #222222;
+}
+
+.iFrameConteudo .formSidenav .contact-form .borderResposta {
+  border: #2eda1c 2px solid;
+}
+
+.iFrameConteudo .formSidenav .lembrete, 
+.iFrameConteudo .formSidenav .contact-form .form-check .lembrete {
+ color:#e3342b;
+ font-size: 13px;
+ font-style: italic;
+}
+
+.iFrameConteudo .formSidenav .imagemQuestion {
+  border: #757574 1px solid;
+  border-radius: 5px;
+  object-fit: cover;
+  width: 280px;
+  max-height: 90px;
+  background-position: center top;
+}
+
+.iFrameConteudo .formSidenav .form-check {
+ font-weight: 500;
+ font-size: 16px;
+ margin-top: 10px; 
+}
+.iFrameConteudo label {
+ font-weight: 500;
+}
+
+
+
+.iFrameConteudo button {
+  font-weight: 400;
+  font-size: 16px;
+  width: 154px;
+  height: 42px;
+  border: 0;
+  background: #e3342b;
+  border-radius: 16px;
+  color:#FFF;
+  border: 1px solid #eeedee;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iFrameConteudo button a:hover,
+.iFrameConteudo button:hover {
+  background: #EEA31C;
+  font-weight: 800;
+}
+
+
+@media screen and (max-height: 450px) {
+  .editSidenav {padding-top: 15px;}
+  .editSidenav a {font-size: 18px;}
+}
+
